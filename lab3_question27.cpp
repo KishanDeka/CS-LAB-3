@@ -10,7 +10,7 @@ int main ()
              c = c+a;
 
   }
-  cout<< c-n;
+  cout<<"Sum of all natural number upto " << n<<" is = "<< c-n;
 
 
   return 0;
