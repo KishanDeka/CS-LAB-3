@@ -1,6 +1,11 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
 int main ()
 { int a, n, m, h, c=0, k, i, j, l, p, q;
-  cout << "enter a integer number "<<endl;
+  cout << "enter a positive integer number "<<endl;
   cin >> a;
   m=abs(a);
   i=m;
