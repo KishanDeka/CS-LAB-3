@@ -18,8 +18,9 @@ int main()
         c=c+m*(pow(10,k-1));
         k--;
     }
-    cout << "The sum of the digits of "
-         << a << " is " << c;
+    cout << "after reversing the digits of the number "
+         << a << ","<<endl<< "we get " << c;
 
 return 0;
 }
+
