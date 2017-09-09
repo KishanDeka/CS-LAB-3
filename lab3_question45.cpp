@@ -7,10 +7,10 @@ int main()
     c=a;
     d=b;
     while (d!=0)
-    {  d=e;
+    {  e=d;
        d=c%d;
-       e=c;
+       c=e;
     }
-    cout << "HCF of "<<a<<" and "<<b<< " is "<<c;
+    cout <<c;
     return 0;
 }
